@@ -2,3 +2,34 @@
 display: flex;
 align-items: center;
 }
+.Sidebarrow_icons{
+color: gray !important;
+
+}
+.Sidebarrow_title{
+    margin-left: 20px;
+    flex: 1;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+.Sidebarrow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.Sidebarrow:hover>.Sidebarrow_icons{
+    color: red !important;
+}
+.Sidebarrow:hover>.Sidebarrow_title{
+    font-weight: bold !important;
+}
+.Sidebarrow.Selected{
+    background-color: lightgray;
+}
+
+.Sidebarrow.Selected>.Sidebarrow_icons{
+    color: red !important;
+}
+.Sidebarrow.Selected>.Sidebarrow_title{
+    font-weight: bold !important;
+}
