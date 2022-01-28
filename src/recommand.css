@@ -1,4 +1,15 @@
 .recommand{
-    border: 1px solid black;
+   
     flex: 0.8;
+    background-color: white;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+.recommand >h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.recommand_videos{
+    display: flex;
+    flex-wrap: wrap;
 }
