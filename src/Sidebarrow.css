@@ -1,6 +1,8 @@
 .Sidebarrow{
 display: flex;
 align-items: center;
+
+
 }
 .Sidebarrow_icons{
 color: gray !important;
