@@ -3,15 +3,20 @@ import "./App.css";
 import Header from "./Header";
 import Recommand from "./Recommand";
 import Sidebar from "./Sidebar";
-
+import Searchpage from "./Searchpage";
 function App() {
   return (
     <div className="App">
       <Router>
       <Header />
         <Routes>
-          <Route path="/search/:searchTerm" element={"hello"} >
           
+          <Route path="/search/:searchTerm" element ={<div className="app_page">
+        <Sidebar />
+        <Searchpage />
+        
+      </div>}>
+
           </Route>
           <Route path='/' element ={<div className="app_page">
         <Sidebar />
