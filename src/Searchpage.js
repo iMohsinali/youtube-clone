@@ -17,7 +17,9 @@ const Searchpage = () => {
       subs="100k"
       nov={382}
       description="This is channel your you get the most informative videos and 
-      you will be eable to do with your self to understand the best way."/>
+      you will be eable to do with your self to understand the best way."
+      />
+      <hr/>
     </div>
   );
 };
